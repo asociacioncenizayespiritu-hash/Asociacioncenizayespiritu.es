@@ -277,3 +277,29 @@ section{
     font-size:.9rem;
 
 }
+.patrimonio{
+
+padding:120px 40px;
+background:#181818;
+text-align:center;
+
+}
+
+.patrimonio h2{
+
+font-family:'Cinzel',serif;
+font-size:3rem;
+color:#d6b46a;
+margin-bottom:40px;
+
+}
+
+.patrimonio p{
+
+max-width:900px;
+margin:auto;
+line-height:2;
+font-size:1.2rem;
+color:#ddd;
+
+}
