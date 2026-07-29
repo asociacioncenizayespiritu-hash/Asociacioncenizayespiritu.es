@@ -484,3 +484,36 @@ box-shadow:0 0 35px rgba(214,180,106,.45);
     line-height:1.8;
 
 }
+/* ===== EVENTOS ===== */
+
+.eventos{
+    padding:120px 40px;
+    background:#0d0d0d;
+    text-align:center;
+}
+
+.eventos h2{
+    font-family:'Cinzel',serif;
+    color:#d6b46a;
+    font-size:3rem;
+    margin-bottom:60px;
+}
+
+.evento{
+    max-width:900px;
+    margin:30px auto;
+    background:#1a1a1a;
+    padding:35px;
+    border-radius:20px;
+    border:1px solid rgba(214,180,106,.25);
+}
+
+.evento h3{
+    color:#d6b46a;
+    margin-bottom:20px;
+}
+
+.evento p{
+    color:#ddd;
+    line-height:1.8;
+}
