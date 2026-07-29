@@ -1,1 +1,57 @@
-<!DOCTYPE html>
+
+/* Animaciones */
+
+@keyframes aparecer {
+
+    from{
+        opacity:0;
+        transform:translateY(40px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
+
+.contenido{
+
+    animation:aparecer 2s ease;
+
+}
+
+/* Brillo del título */
+
+h1{
+
+    animation:brillo 4s infinite alternate;
+
+}
+
+@keyframes brillo{
+
+    from{
+        text-shadow:0 0 15px #d6b46a;
+    }
+
+    to{
+        text-shadow:
+        0 0 10px #d6b46a,
+        0 0 30px #d6b46a,
+        0 0 60px #ffd700;
+    }
+
+}
+
+/* Fondo oscuro */
+
+body{
+
+    background:linear-gradient(
+    180deg,
+    #000000,
+    #0d0d0d,
+    #151515);
+
+}
