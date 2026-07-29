@@ -55,3 +55,35 @@ body{
     #151515);
 
 }
+.quienes{
+
+    background:#0d0d0d;
+    padding:120px 30px;
+
+}
+
+.contenedor{
+
+    max-width:1100px;
+    margin:auto;
+
+}
+
+.quienes h2{
+
+    font-family:'Cinzel',serif;
+    color:#d6b46a;
+    font-size:3rem;
+    text-align:center;
+    margin-bottom:40px;
+
+}
+
+.texto{
+
+    font-size:1.2rem;
+    line-height:2;
+    text-align:center;
+    color:#dddddd;
+
+}
