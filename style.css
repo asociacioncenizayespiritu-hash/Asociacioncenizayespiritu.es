@@ -586,3 +586,29 @@ box-shadow:0 0 35px rgba(214,180,106,.45);
     font-family:'Cinzel',serif;
     margin-bottom:15px;
 }
+/* ===== ÚNETE ===== */
+
+.unete{
+    padding:140px 30px;
+    background:linear-gradient(180deg,#0a0a0a,#111,#0a0a0a);
+    text-align:center;
+}
+
+.unete h2{
+    font-family:'Cinzel',serif;
+    font-size:3rem;
+    color:#d6b46a;
+    margin-bottom:25px;
+}
+
+.unete p{
+    max-width:850px;
+    margin:0 auto 40px;
+    color:#ddd;
+    line-height:2;
+    font-size:1.2rem;
+}
+
+.unete .boton{
+    font-size:1.1rem;
+}
