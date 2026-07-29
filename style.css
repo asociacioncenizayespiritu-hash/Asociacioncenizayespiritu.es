@@ -612,3 +612,47 @@ box-shadow:0 0 35px rgba(214,180,106,.45);
 .unete .boton{
     font-size:1.1rem;
 }
+/* ===== VALORES ===== */
+
+.valores{
+    padding:120px 40px;
+    background:#121212;
+    text-align:center;
+}
+
+.valores h2{
+    font-family:'Cinzel',serif;
+    color:#d6b46a;
+    font-size:3rem;
+    margin-bottom:60px;
+}
+
+.valores-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+.valor{
+    background:#1c1c1c;
+    border-radius:20px;
+    padding:35px;
+    border:1px solid rgba(214,180,106,.25);
+    transition:.3s;
+}
+
+.valor:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 25px rgba(214,180,106,.35);
+}
+
+.valor h3{
+    color:#d6b46a;
+    margin-bottom:20px;
+    font-family:'Cinzel',serif;
+}
+
+.valor p{
+    color:#ddd;
+    line-height:1.8;
+}
