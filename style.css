@@ -132,3 +132,31 @@ body{
     color:#ddd;
     line-height:1.8;
 }
+.hero{
+    height:100vh;
+    background:url("assets/images/portada.jpg") center center/cover no-repeat;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    animation:fondoZoom 20s ease-in-out infinite alternate;
+}
+@keyframes fondoZoom{
+
+    0%{
+        background-size:100%;
+    }
+
+    100%{
+        background-size:110%;
+    }
+
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+section{
+    scroll-margin-top:100px;
+}
