@@ -87,3 +87,48 @@ body{
     color:#dddddd;
 
 }
+.investigaciones{
+    padding:120px 30px;
+    background:#111;
+}
+
+.investigaciones h2{
+    text-align:center;
+    font-family:'Cinzel',serif;
+    color:#d6b46a;
+    font-size:3rem;
+    margin-bottom:60px;
+}
+
+.tarjetas{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.tarjeta{
+    width:320px;
+    background:#1b1b1b;
+    padding:30px;
+    border-radius:18px;
+    border:1px solid rgba(214,180,106,.25);
+    transition:.4s;
+    text-align:center;
+}
+
+.tarjeta:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 30px rgba(214,180,106,.35);
+}
+
+.tarjeta h3{
+    color:#d6b46a;
+    margin-bottom:20px;
+    font-family:'Cinzel',serif;
+}
+
+.tarjeta p{
+    color:#ddd;
+    line-height:1.8;
+}
