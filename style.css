@@ -416,3 +416,71 @@ box-shadow:0 0 35px rgba(214,180,106,.45);
     color:#000;
 
 }
+/* ===== EQUIPO ===== */
+
+.equipo{
+
+    padding:120px 40px;
+    background:#141414;
+    text-align:center;
+
+}
+
+.equipo h2{
+
+    font-family:'Cinzel',serif;
+    color:#d6b46a;
+    font-size:3rem;
+    margin-bottom:60px;
+
+}
+
+.equipo-grid{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+
+}
+
+.miembro{
+
+    background:#1b1b1b;
+    border:1px solid rgba(214,180,106,.25);
+    border-radius:20px;
+    padding:30px;
+    transition:.4s;
+
+}
+
+.miembro:hover{
+
+    transform:translateY(-10px);
+    box-shadow:0 0 30px rgba(214,180,106,.35);
+
+}
+
+.avatar{
+
+    width:140px;
+    height:140px;
+    margin:0 auto 25px;
+    border-radius:50%;
+    background:#2b2b2b;
+    border:3px solid #d6b46a;
+
+}
+
+.miembro h3{
+
+    color:#d6b46a;
+    margin-bottom:15px;
+
+}
+
+.miembro p{
+
+    color:#ddd;
+    line-height:1.8;
+
+}
