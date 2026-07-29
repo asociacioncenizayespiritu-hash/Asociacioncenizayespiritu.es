@@ -208,3 +208,72 @@ section{
     }
 
 }
+/* Footer */
+
+.footer{
+
+    background:#050505;
+
+    text-align:center;
+
+    padding:80px 30px;
+
+    border-top:1px solid rgba(214,180,106,.25);
+
+}
+
+.footer h2{
+
+    color:#d6b46a;
+
+    font-family:'Cinzel',serif;
+
+    margin-bottom:10px;
+
+}
+
+.footer h3{
+
+    color:white;
+
+    margin-bottom:20px;
+
+}
+
+.footer p{
+
+    color:#bdbdbd;
+
+}
+
+.redes{
+
+    margin:40px 0;
+
+}
+
+.redes a{
+
+    color:#d6b46a;
+
+    margin:15px;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.redes a:hover{
+
+    color:white;
+
+}
+
+.copyright{
+
+    margin-top:30px;
+
+    font-size:.9rem;
+
+}
